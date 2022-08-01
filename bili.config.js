@@ -4,4 +4,5 @@ module.exports = {
   format: ['cjs', 'es', 'umd', 'umd-min'],
   moduleName: 'VueCroppie',
   exports: 'named',
+  externals: ['vue']
 }
