@@ -4,12 +4,13 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
+var vue = require('vue');
 var Croppie = _interopDefault(require('croppie'));
 
 var VueCroppieComponent = {
   name: 'VueCroppie',
-  render: function render(h) {
-    return h('div', {
+  render: function render() {
+    return vue.h('div', {
       class: this.customClass,
       ref: 'croppieContainer',
       id: 'croppieContainer'

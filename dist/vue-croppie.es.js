@@ -1,8 +1,9 @@
+import { h } from 'vue';
 import Croppie from 'croppie';
 
 var VueCroppieComponent = {
   name: 'VueCroppie',
-  render: function render(h) {
+  render: function render() {
     return h('div', {
       class: this.customClass,
       ref: 'croppieContainer',

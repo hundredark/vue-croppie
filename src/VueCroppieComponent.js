@@ -1,8 +1,9 @@
+import { h } from 'vue'
 import Croppie from 'croppie'
 
 export default {
   name: 'VueCroppie',
-  render(h){
+  render(){
     return h('div', {
       class: this.customClass,
       ref: 'croppieContainer',
