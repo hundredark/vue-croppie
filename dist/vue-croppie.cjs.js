@@ -6,6 +6,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var vue = require('vue');
 var Croppie = _interopDefault(require('croppie'));
+require('croppie/croppie.css');
 
 var VueCroppieComponent = {
   name: 'VueCroppie',

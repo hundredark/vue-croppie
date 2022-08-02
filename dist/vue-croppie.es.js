@@ -1,5 +1,6 @@
 import { h } from 'vue';
 import Croppie from 'croppie';
+import 'croppie/croppie.css';
 
 var VueCroppieComponent = {
   name: 'VueCroppie',
